@@ -373,32 +373,5 @@ Tests complete agent pipeline with real-world scenarios:
 6. ⚠️ "Remove all .pyc files from the project and ignore them in git"
 7. ⚠️ "Search for TODO comments in all JavaScript files and show line numbers"
 
-## 🔒 Safety & Security
-
-### Dangerous Pattern Detection
-
-```python
-DANGEROUS_PATTERNS = [
-    r'rm -rf /',
-    r'format.*',
-    r'del /.*',
-    r'sudo rm .*'
-]
-
-def validate_command_safety(command):
-    for pattern in DANGEROUS_PATTERNS:
-        if re.search(pattern, command, re.IGNORECASE):
-            return False, "Potentially dangerous command detected"
-    return True, "Command appears safe"
-```
-
-### Error Handling
-
-- 🔄 **Graceful Degradation**: Fallback when model fails
-- ✅ **Command Validation**: Pre-execution checks
-- 📝 **Detailed Logging**: Complete execution traces
-- 🗣️ **User-Friendly Messages**: Clear error explanations
-
-
 
 </div>
