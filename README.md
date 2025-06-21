@@ -9,7 +9,7 @@
 
 *A fine-tuned language model that converts natural language instructions into precise command-line operations with step-by-step planning and safe execution.*
 
-[🚀 Quick Start](#-quick-start) • [📊 Results](#-evaluation-results) • [🛠️ Installation](#️-installation--setup) • [📖 Documentation](#-documentation)
+[🚀 Quick Start](#-quick-start) • [📊 Results](#-evaluation-results) • [🛠️ Installation](#️-installation--setup) 
 
 </div>
 
