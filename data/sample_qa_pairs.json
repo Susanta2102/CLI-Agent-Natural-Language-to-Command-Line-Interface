@@ -1,0 +1,20 @@
+[
+  {
+    "question": "How to create a new Git branch?",
+    "answer": "Use git checkout -b <branch-name> to create and switch to a new branch.",
+    "source": "sample",
+    "topic": "git"
+  },
+  {
+    "question": "How to list all files recursively?",
+    "answer": "Use find . -type f to list all files recursively in the current directory.",
+    "source": "sample",
+    "topic": "find"
+  },
+  {
+    "question": "How to compress a folder?",
+    "answer": "Use tar -czf archive.tar.gz folder/ to create a compressed archive.",
+    "source": "sample",
+    "topic": "tar"
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "question": "git-upload-pack: command not found",
+    "answer": "Use PATH does not return /usr/local/bin. (It returns /usr/bin:/bin:/usr/sbin:/sbin). But when I look at my .bashrc file, it contains: export PATH=/usr/local/bin:$PATH So now I'm confused. What do I need to do to avoid using the -u /usr/local/bin/git-upload-pack option every time? Why does ssh you@remotemachine echo \\$PATH not return /usr/local/bin? Is this something to do with login and non-login shells? Please help! Thanks in advance. command. I've read this answer about eight-five times, but there's something I'm not understanding correctly: git-upload-pack: command not found, how to fix this correctly When I try to clone a repository on m...",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 25
+  },
+  {
+    "question": "What&#39;s the easiest way to use the output paths from a git command in a subsequent git command?",
+    "answer": "Use git log --name-status -1 commit a10e63af1f4b1b2c28055fed55d4f2bb3225a541 Author: Me <me@me.com> Date: Tue Aug 18 13:04:04 2015 -0400 XYZ-376 make ctors public M x/y/z/Class1.java M x/y/z/Class2.java /home/me-$ git checkout -- x/y/z/Class2.java # <-- copy/paste with the mouse I know that some git commands accept wildcards, and this mitigates this problem somewhat, but I'm wondering if there is a way do specifically reference pathspecs, etc. from previous commands. How can I run commands like this without using the mouse, and without retyping long paths by hand? command. I far too frequently use the mouse to do things like this: /home/me-$ git log --name-status -1 commit a10e63af1f4b1b2c28055fed55d4f2bb3225a541 Author: Me <me@me.com> Date: Tue Aug 18 13:04:04 2015 -04...",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 1
+  },
+  {
+    "question": "How to run a python script through command line?",
+    "answer": "Use . How is Git able to integrate its scripts into the terminal? How would I be able to do the same with an arbitrary script in python? It is really hard to find any information without knowing the correct terminology although here's my attempt of mimicking such a command line system as git. I start with a command file in a folder in my home directory something.command Which on the inside directs me to a python script. e.g cd cd python_script_location python3 script.py Then I make this an environment variable through editing the .bash_profile. export pyinit=/Users/Charlkie/vcscmd/pyinit.command This although will just run a script in another directory. How can I make a terminal command that runs a python script in the current directory? Any help would be greatly appreciated :) command. I have been looking into bash and shell and have been trying to figure out how Git is able to run its C script in any directory. I have recently fiddled with environment variables, although this just ...",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 0
+  },
+  {
+    "question": "Shell script to clone a GitHub Repo",
+    "answer": "Use username:$password@enterpriseGithub.com/org/repo is working, but it is UNSAFE to use since the log show the username and password explicitly. command. I am trying to automate a process that contains a series of git commands. I want the shell script to deal with some interactive commands, like passing the username and password to git clone url -v. I ...",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 0
+  },
+  {
+    "question": "What is the tool GIT uses to draw graph in command-line?",
+    "answer": "I want to use that tool to draw undirected graphs with labels on each node. Does Git use an external tool for that?",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 0
+  },
+  {
+    "question": "Get git commit SHA for use in command line utility",
+    "answer": "Use ionic-cloud build web --app-id=<APPFLOW APP ID> --commit=<GIT COMMIT SHA> In order to do this I need to know my Git commit SHA. I know I can get this with: git show -s --format=%H Now how do I combine these things together to use in the command line? Should I make a shell script to do this? command. I want to run this command: $ ionic-cloud build web --app-id=<APPFLOW APP ID> --commit=<GIT COMMIT SHA> In order to do this I need to know my Git commit SHA. I know I can get this with: git show -s --...",
+    "source": "stackoverflow",
+    "topic": "git",
+    "score": 0
+  },
+  {
+    "question": "git-upload-pack: command not found",
+    "answer": "Use PATH does not return /usr/local/bin. (It returns /usr/bin:/bin:/usr/sbin:/sbin). But when I look at my .bashrc file, it contains: export PATH=/usr/local/bin:$PATH So now I'm confused. What do I need to do to avoid using the -u /usr/local/bin/git-upload-pack option every time? Why does ssh you@remotemachine echo \\$PATH not return /usr/local/bin? Is this something to do with login and non-login shells? Please help! Thanks in advance. command. I've read this answer about eight-five times, but there's something I'm not understanding correctly: git-upload-pack: command not found, how to fix this correctly When I try to clone a repository on m...",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 25
+  },
+  {
+    "question": "What&#39;s the easiest way to use the output paths from a git command in a subsequent git command?",
+    "answer": "Use git log --name-status -1 commit a10e63af1f4b1b2c28055fed55d4f2bb3225a541 Author: Me <me@me.com> Date: Tue Aug 18 13:04:04 2015 -0400 XYZ-376 make ctors public M x/y/z/Class1.java M x/y/z/Class2.java /home/me-$ git checkout -- x/y/z/Class2.java # <-- copy/paste with the mouse I know that some git commands accept wildcards, and this mitigates this problem somewhat, but I'm wondering if there is a way do specifically reference pathspecs, etc. from previous commands. How can I run commands like this without using the mouse, and without retyping long paths by hand? command. I far too frequently use the mouse to do things like this: /home/me-$ git log --name-status -1 commit a10e63af1f4b1b2c28055fed55d4f2bb3225a541 Author: Me <me@me.com> Date: Tue Aug 18 13:04:04 2015 -04...",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 1
+  },
+  {
+    "question": "Get git commit SHA for use in command line utility",
+    "answer": "Use ionic-cloud build web --app-id=<APPFLOW APP ID> --commit=<GIT COMMIT SHA> In order to do this I need to know my Git commit SHA. I know I can get this with: git show -s --format=%H Now how do I combine these things together to use in the command line? Should I make a shell script to do this? command. I want to run this command: $ ionic-cloud build web --app-id=<APPFLOW APP ID> --commit=<GIT COMMIT SHA> In order to do this I need to know my Git commit SHA. I know I can get this with: git show -s --...",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 0
+  },
+  {
+    "question": "Shell script to clone a GitHub Repo",
+    "answer": "Use username:$password@enterpriseGithub.com/org/repo is working, but it is UNSAFE to use since the log show the username and password explicitly. command. I am trying to automate a process that contains a series of git commands. I want the shell script to deal with some interactive commands, like passing the username and password to git clone url -v. I ...",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 0
+  },
+  {
+    "question": "How to run a python script through command line?",
+    "answer": "Use . How is Git able to integrate its scripts into the terminal? How would I be able to do the same with an arbitrary script in python? It is really hard to find any information without knowing the correct terminology although here's my attempt of mimicking such a command line system as git. I start with a command file in a folder in my home directory something.command Which on the inside directs me to a python script. e.g cd cd python_script_location python3 script.py Then I make this an environment variable through editing the .bash_profile. export pyinit=/Users/Charlkie/vcscmd/pyinit.command This although will just run a script in another directory. How can I make a terminal command that runs a python script in the current directory? Any help would be greatly appreciated :) command. I have been looking into bash and shell and have been trying to figure out how Git is able to run its C script in any directory. I have recently fiddled with environment variables, although this just ...",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 0
+  },
+  {
+    "question": "What is the tool GIT uses to draw graph in command-line?",
+    "answer": "I want to use that tool to draw undirected graphs with labels on each node. Does Git use an external tool for that?",
+    "source": "stackoverflow",
+    "topic": "bash",
+    "score": 0
+  },
+  {
+    "question": "How to run a python script through command line?",
+    "answer": "Use . How is Git able to integrate its scripts into the terminal? How would I be able to do the same with an arbitrary script in python? It is really hard to find any information without knowing the correct terminology although here's my attempt of mimicking such a command line system as git. I start with a command file in a folder in my home directory something.command Which on the inside directs me to a python script. e.g cd cd python_script_location python3 script.py Then I make this an environment variable through editing the .bash_profile. export pyinit=/Users/Charlkie/vcscmd/pyinit.command This although will just run a script in another directory. How can I make a terminal command that runs a python script in the current directory? Any help would be greatly appreciated :) command. I have been looking into bash and shell and have been trying to figure out how Git is able to run its C script in any directory. I have recently fiddled with environment variables, although this just ...",
+    "source": "stackoverflow",
+    "topic": "find",
+    "score": 0
+  },
+  {
+    "question": "How to create a new Git branch and switch to it?",
+    "answer": "Use `git checkout -b <branch-name>` or `git switch -c <branch-name>` to create and switch to a new branch.",
+    "source": "github",
+    "topic": "git"
+  },
+  {
+    "question": "How to compress a folder using tar and gzip?",
+    "answer": "Use `tar -czf archive.tar.gz folder/` to create a compressed archive.",
+    "source": "github",
+    "topic": "tar"
+  },
+  {
+    "question": "How to find all Python files recursively?",
+    "answer": "Use `find . -name \"*.py\"` or `ls **/*.py` (with globstar enabled) to list all Python files recursively.",
+    "source": "github",
+    "topic": "find"
+  },
+  {
+    "question": "How to set up a Python virtual environment?",
+    "answer": "Use `python -m venv venv` to create and `source venv/bin/activate` (Linux/Mac) or `venv\\Scripts\\activate` (Windows) to activate.",
+    "source": "github",
+    "topic": "python"
+  },
+  {
+    "question": "How to view the first few lines of a file?",
+    "answer": "Use `head -n 10 filename` to display the first 10 lines of a file.",
+    "source": "github",
+    "topic": "head"
+  },
+  {
+    "question": "How to check Git status and see what files are modified?",
+    "answer": "Use `git status` to see the current state of your working directory and staging area.",
+    "source": "manual",
+    "topic": "git"
+  },
+  {
+    "question": "How to extract a tar.gz file?",
+    "answer": "Use `tar -xzf archive.tar.gz` to extract a gzipped tar archive.",
+    "source": "manual",
+    "topic": "tar"
+  },
+  {
+    "question": "How to search for text patterns in files using grep?",
+    "answer": "Use `grep \"pattern\" filename` or `grep -r \"pattern\" directory/` for recursive search.",
+    "source": "manual",
+    "topic": "grep"
+  },
+  {
+    "question": "How to change file permissions using chmod?",
+    "answer": "Use `chmod 755 filename` for read/write/execute for owner, read/execute for group and others.",
+    "source": "manual",
+    "topic": "chmod"
+  },
+  {
+    "question": "How to copy files and directories?",
+    "answer": "Use `cp file1 file2` for files or `cp -r dir1/ dir2/` for directories.",
+    "source": "manual",
+    "topic": "cp"
+  },
+  {
+    "question": "How to move or rename files?",
+    "answer": "Use `mv oldname newname` to rename or `mv file /path/to/destination/` to move.",
+    "source": "manual",
+    "topic": "mv"
+  },
+  {
+    "question": "How to create a directory?",
+    "answer": "Use `mkdir dirname` or `mkdir -p path/to/nested/dirs` to create nested directories.",
+    "source": "manual",
+    "topic": "mkdir"
+  },
+  {
+    "question": "How to remove files and directories?",
+    "answer": "Use `rm filename` for files or `rm -rf dirname/` for directories (be careful!).",
+    "source": "manual",
+    "topic": "rm"
+  },
+  {
+    "question": "How to list files with detailed information?",
+    "answer": "Use `ls -la` to show all files with permissions, ownership, size, and modification date.",
+    "source": "manual",
+    "topic": "ls"
+  },
+  {
+    "question": "How to navigate to a different directory?",
+    "answer": "Use `cd /path/to/directory` or `cd ..` to go up one level, `cd ~` for home directory.",
+    "source": "manual",
+    "topic": "cd"
+  },
+  {
+    "question": "How to stage all files for commit?",
+    "answer": "Use `git add .` to stage all files or `git add -A` to stage all including deletions.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to commit with a message?",
+    "answer": "Use `git commit -m \"commit message\"` to commit staged changes with a message.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to push changes to remote repository?",
+    "answer": "Use `git push origin branch-name` to push commits to the remote repository.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to pull latest changes?",
+    "answer": "Use `git pull` to fetch and merge changes from remote repository.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to clone a repository?",
+    "answer": "Use `git clone <repository-url>` to clone a remote repository locally.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to see commit history?",
+    "answer": "Use `git log` or `git log --oneline` for a condensed view of commit history.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to create a new branch without switching?",
+    "answer": "Use `git branch branch-name` to create a new branch without switching to it.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to switch between branches?",
+    "answer": "Use `git checkout branch-name` or `git switch branch-name` to switch branches.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to merge branches?",
+    "answer": "Switch to target branch and use `git merge source-branch` to merge changes.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to delete a branch?",
+    "answer": "Use `git branch -d branch-name` for merged branches or `git branch -D branch-name` to force delete.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to view file contents?",
+    "answer": "Use `cat filename` to display file contents or `less filename` for paginated view.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to append text to a file?",
+    "answer": "Use `echo \"text\" >> filename` to append or `echo \"text\" > filename` to overwrite.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to count lines in a file?",
+    "answer": "Use `wc -l filename` to count lines, `wc -w` for words, `wc -c` for characters.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to sort file contents?",
+    "answer": "Use `sort filename` or `sort -r filename` for reverse order.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to remove duplicate lines?",
+    "answer": "Use `sort filename | uniq` or `sort -u filename` to remove duplicates.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to compare two files?",
+    "answer": "Use `diff file1 file2` to see differences between files.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to search and replace text in files?",
+    "answer": "Use `sed \"s/old/new/g\" filename` for search and replace with sed.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to find files by name?",
+    "answer": "Use `find . -name \"filename\"` or `find . -name \"*.txt\"` for pattern matching.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to find files by size?",
+    "answer": "Use `find . -size +100M` for files larger than 100MB or `-size -1M` for smaller than 1MB.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to find recently modified files?",
+    "answer": "Use `find . -mtime -1` for files modified in last day or `-mtime +7` for older than 7 days.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to check disk usage?",
+    "answer": "Use `df -h` for filesystem usage or `du -sh directory/` for directory size.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to check running processes?",
+    "answer": "Use `ps aux` or `top` for real-time process monitoring.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to kill a process?",
+    "answer": "Use `kill PID` or `pkill process-name` to terminate processes.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to download files from internet?",
+    "answer": "Use `wget URL` or `curl -O URL` to download files.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to check network connectivity?",
+    "answer": "Use `ping hostname` to test connectivity or `curl -I URL` for HTTP status.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to compress files with zip?",
+    "answer": "Use `zip archive.zip file1 file2` or `zip -r archive.zip directory/` for directories.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to extract zip files?",
+    "answer": "Use `unzip archive.zip` to extract zip files.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to monitor log files in real-time?",
+    "answer": "Use `tail -f logfile` to follow log files as they are written.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to search running processes?",
+    "answer": "Use `ps aux | grep process-name` to find specific running processes.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to check system memory usage?",
+    "answer": "Use `free -h` to see memory usage in human-readable format.",
+    "source": "manual",
+    "topic": "system"
+  },
+  {
+    "question": "How to install Python packages?",
+    "answer": "Use `pip install package-name` or `pip install -r requirements.txt` for multiple packages.",
+    "source": "manual",
+    "topic": "python"
+  },
+  {
+    "question": "How to create requirements file?",
+    "answer": "Use `pip freeze > requirements.txt` to save current package versions.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to upgrade pip packages?",
+    "answer": "Use `pip install --upgrade package-name` or `pip install -U package-name`.",
+    "source": "manual",
+    "topic": "python"
+  },
+  {
+    "question": "How to uninstall Python packages?",
+    "answer": "Use `pip uninstall package-name` to remove installed packages.",
+    "source": "manual",
+    "topic": "python"
+  },
+  {
+    "question": "How to list installed packages?",
+    "answer": "Use `pip list` or `pip show package-name` for detailed package info.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to run Python scripts?",
+    "answer": "Use `python script.py` or `python3 script.py` depending on your system.",
+    "source": "manual",
+    "topic": "python"
+  },
+  {
+    "question": "How to check Python version?",
+    "answer": "Use `python --version` or `python -V` to check installed Python version.",
+    "source": "manual",
+    "topic": "python"
+  },
+  {
+    "question": "How to deactivate virtual environment?",
+    "answer": "Use `deactivate` command when inside an activated virtual environment.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to install specific package version?",
+    "answer": "Use `pip install package-name==1.2.3` to install specific version.",
+    "source": "manual",
+    "topic": "file"
+  },
+  {
+    "question": "How to create virtual environment with specific Python version?",
+    "answer": "Use `python3.8 -m venv myenv` to create venv with specific Python version.",
+    "source": "manual",
+    "topic": "python"
+  }
+]
